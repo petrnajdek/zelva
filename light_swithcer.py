@@ -29,5 +29,3 @@ if __name__ == '__main__':
 	elif args.heat == TURN_OFF:
 		GPIO.output(PIN_HEAT, 0)
 		print("Heat OFF")
-
-	GPIO.cleanup()
